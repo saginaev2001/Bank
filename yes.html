@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "0bf8888d-6f3f-4660-a391-71a8a3be9330",
+    });
+  });
+</script>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="yes.css">
+    <script src="sss.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=Your API key&lang=en_US" type="text/javascript">
+  </script>
+    <!-- <script src="script.js"></script> -->
+
+</head>
+
+<body>
+    <div class="heading">
+        <a href="file:///Users/Apple/Desktop/web/Sberbank/index.html"><img class="img1" src="https://hcsbk.kz/local/templates/.default/images/logo2.png" alt=""></a>
+        <p class="text1">г. Алматы, пр. Абылай хана, 91
+            <br> тел.: +7 (727) 330-9-300</p>
+
+    </div>
+    <div class="body">
+        <h1>Вы id в очереди.<br>Перед вами</h1>
+        <h2 id="level-title" style='color:#333;'>21</h2>
+        <h3 class="hh3" style='color:white'>человек</h3>
+
+    </div>
+
+    <footer>
+        <p id="p1">© 2019 АО «Жилстройсбербанк Казахстана»</p>
+        <br>
+        <br>
+        <div id="map" style="width: 100%; height: 400px"></div>
+
+
+
+    </footer>
+    <script >
+      var level = 21;
+      var started = true;
+
+
+      	$(document).bind('keypress', function(e){
+      		if (e.keyCode == 97 && started || e.keyCode == 13 ) {
+      			level--;
+      			playLevel();
+      		}
+      	});
+
+
+      function playLevel(){
+      	$("#level-title").text(level);
+
+      }
+
+
+    </script>
+    <script type="text/javascript">
+    // The ymaps.ready() function will be called when
+    // all the API components are loaded and the DOM tree is generated.
+    ymaps.ready(init);
+    function init(){
+        // Creating the map.
+        var myMap = new ymaps.Map("map", {
+            // The map center coordinates.
+            // Default order: “latitude, longitude”.
+            // To not manually determine the map center coordinates,
+            // use the Coordinate detection tool.
+            center: [55.76, 37.64],
+            // Zoom level. Acceptable values:
+            // from 0 (the entire world) to 19.
+            zoom: 7
+        });
+    }
+</script>
+
+
+</body>
+
+</html>

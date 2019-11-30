@@ -1,0 +1,154 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.heading {
+  display: flex;
+  background-color: rgba(0, 139, 138, 1);
+  height: 130px;
+}
+.img1{
+  margin: 20px 40px;
+}
+.text1 {
+  margin: 30px 40px;
+  margin-left:  auto;
+  color: white;
+  font-size: 1.2em;
+  font-family: 'Roboto Slab', serif;
+}
+
+
+.body {
+  margin:0 370px;
+  width: 700px;
+  height: 400px;
+  margin-top: 100px;
+  background-color: rgba(0, 139, 138, 1);
+  border-radius: 10px;
+
+
+}
+h1{
+  font-size: 2.5em;
+  padding: 0 20px;
+  font-weight: 500;
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-weight: normal;
+}
+#level-title {
+  font-size: 10em;
+  text-align: center
+
+
+}
+.hh3{
+
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 20px;
+
+
+}
+
+/* .yesno{
+  display: flex;
+  margin-top: 40px;
+}
+.no{
+    border: 2px solid white;
+    border-radius: 90px;
+    margin-top: 50px;
+    width: 150px;
+    height: 60px;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+}
+.yes{
+  border: 2px solid white;
+  border-radius: 90px;
+  margin-top: 50px;
+  width: 150px;
+  height: 60px;
+  font-size: 3em;
+  color: white;
+  text-align: center;
+  margin-left: 150px;
+}
+.yes1{
+  text-decoration: none;
+  color: white;
+}
+.no1{
+  text-decoration: none;
+  color: white;
+}
+.no:hover {
+  background-color: red;
+}
+.yes:hover {
+  background-color: green;
+
+} */
+
+footer{
+  margin-top: 120px;
+  background-color:#333;
+  height: 100px;
+  text-align: ce
+}
+#p1{
+  text-align: center;
+  padding-top: 35px;
+  padding-left: 20px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: normal;
+  font-size: 1.3em;
+  color: white;
+}
+.social-links {
+  color: white;
+}
+.countdown-title {
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+.countdown {
+  padding-top: 30px;
+  padding-left: 200px;
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+.countdown-number {
+  padding: 10px;
+  border-radius: 3px;
+  background: #00bf96;
+  display: inline-block;
+}
+
+.countdown-time {
+  padding: 15px;
+  border-radius: 3px;
+  background: #00816a;
+  display: inline-block;
+}
+
+.countdown-text {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+}
